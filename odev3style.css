@@ -1,0 +1,93 @@
+body{
+    background-color: #301E67;
+    color: #525252;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.sayfa {
+    width: 960px;
+    margin: auto;
+}
+header {
+    background-color: #5B8FB9;
+    height: 120px;
+}
+#logo {
+    float: left;
+    width: 400px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+#logo h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+#logo h1 a{
+    font-family: Georgia;
+    text-decoration: none;
+    color: #DBDBDB;
+    letter-spacing: 3px;
+}
+#menu {
+    float: right;
+    width: 500px;
+    margin: 30px 0 0 0;
+    padding: 0;
+    text-align: right;
+}
+#menu ul {
+    list-style: none;
+}
+#menu ul li{
+    display: inline;
+    margin-right: 35px;
+}
+.ust-taraf {
+    margin-top: 10px;
+    height: 300px;
+}
+.sol-taraf{
+    float: left;
+    width: 575px;
+}
+.sag-taraf{
+    float: right;
+    width:360px ;
+    background-color: #B6EADA;
+    
+}
+
+.card {
+    width: 270px;
+    float: left;
+    margin-right: 50px;
+    /* display: inline-block; */
+    
+}
+.card-orta {
+    width: 270px;
+    margin-right: 50px;
+}
+
+
+.card h1{
+    border-bottom: 1px dotted white;
+    padding-bottom: 15px;
+}
+.button a{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #B6EADA;
+    color: #301E67;
+    text-decoration: none;
+}
+.turler img{
+    height: 250px;
+    padding: 20px;
+}
+.turler {
+    display: inline-block;
+}
